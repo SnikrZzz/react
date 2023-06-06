@@ -1,0 +1,32 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin: 50px;
+}
+
+h1 {
+  margin: 40px;
+}
+
+.product-container {
+  display: grid;
+  flex-wrap: wrap;
+  border: solid 1px gray;
+  padding: 15px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-container h3 {
+  color: #e35e01;
+  font-size: 30px;
+}
+
+.image-container {
+  display: flex;
+  max-width: 100%;
+  height: 250px;
+  justify-content: center;
+}

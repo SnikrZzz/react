@@ -1,0 +1,32 @@
+.app {
+  width: 1680px;
+  text-align: center;
+  background-color: white;
+  color: #e35e01;
+}
+
+.header {
+  color: white;
+  background-color: black;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.list li {
+  margin-right: 50px;
+}
+
+.link {
+  color: initial;
+  text-decoration: none;
+}
